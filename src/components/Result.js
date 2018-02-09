@@ -14,7 +14,7 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        You prefer <strong>{props.quizResult}</strong>!
+        <strong>{props.kyselyResult}</strong>!
       </div>
     </ReactCSSTransitionGroup>
   );
@@ -22,7 +22,7 @@ function Result(props) {
 }
 
 Result.propTypes = {
-  quizResult: React.PropTypes.string.isRequired,
+  kyselyResult: React.PropTypes.string.isRequired,
 };
 
 export default Result;
